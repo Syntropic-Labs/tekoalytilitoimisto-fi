@@ -769,6 +769,23 @@ footer .word img{filter:invert(1) brightness(.35)}
 .paketti.laajempi{border-top-color:#FFC6AE!important;box-shadow:inset 0 3px 0 #FFC6AE}
 .cta-band.yhteys-band{background:linear-gradient(180deg,#FBFAF7 0%,#FFF5EF 100%)!important}
 </style>
+<style data-raikas-korjaus-20307>
+.palvelut svg{box-sizing:border-box!important;width:46px!important;height:46px!important;padding:9px;flex:none}
+.palvelut li{align-content:start}
+@media (max-width:960px),(min-width:961px) and (max-height:960px){
+ .palvelut li{grid-template-columns:46px minmax(0,1fr)!important;column-gap:16px!important}
+ .palvelut svg{grid-row:1/span 2!important;align-self:start}
+ .palvelut li>:not(svg){grid-column:2}
+}
+@media (max-width:600px){
+ .palvelut svg{width:40px!important;height:40px!important;padding:7px}
+ .palvelut li{grid-template-columns:40px minmax(0,1fr)!important;column-gap:14px!important}
+}
+@media (min-width:900px){
+ .vaiheet .vk{padding:10px!important;aspect-ratio:auto!important;height:auto!important}
+ .vaiheet .vk img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;border-radius:10px}
+}
+</style>
 <script src="assets/syntropia.js"></script>
 <script>(function(){if(!('IntersectionObserver'in window))return;var r=matchMedia('(prefers-reduced-motion: reduce)').matches;if(r)return;var els=document.querySelectorAll('.vaihe .vk,.paketti,.kp-kortti,.tyonjako>div');var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('nakyy');o.unobserve(e.target)}})},{threshold:.08});els.forEach(function(el){el.classList.add('js-fade');o.observe(el)})})();</script>
 </body>
