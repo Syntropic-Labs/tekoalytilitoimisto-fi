@@ -490,6 +490,7 @@ footer .word img{filter:invert(1) brightness(.35)}
 .tietosuoja li{margin:6px 0}
 </style>
 <style data-raikas>.raikas-lukitus{display:inline-flex;align-items:center;gap:9px;font:700 22px/1 "Schibsted Grotesk",system-ui,sans-serif;letter-spacing:-.035em;color:#1E1A4D;white-space:nowrap}.raikas-lukitus .raikas-merkki{width:30px;height:30px;flex:none;display:block}.f-word .raikas-lukitus,.word .raikas-lukitus{font-size:26px}.word .raikas-lukitus .raikas-merkki{width:34px;height:34px}</style>
+<script data-lukema>(function(){var k='raikas-oma',d=document,ilmoitus=null,pois=false;try{var u=new URL(location.href),v=u.searchParams.get('oma');if(v==='1'||v==='0'){ilmoitus='Selain ei salli tallennusta, joten laitetta ei voitu merkitä.';if(v==='1'){localStorage.setItem(k,'1');}else{localStorage.removeItem(k);}ilmoitus=v==='1'?'Tämä laite ei enää näy aitilitoimisto.fi:n kävijätilastoissa.':'Tämä laite näkyy taas aitilitoimisto.fi:n kävijätilastoissa.';u.searchParams.delete('oma');history.replaceState(history.state,'',u.pathname+u.search+u.hash);}pois=localStorage.getItem(k)==='1';}catch(e){}if(ilmoitus){d.addEventListener('DOMContentLoaded',function(){var t=d.createElement('div');t.setAttribute('role','status');t.textContent=ilmoitus;t.style.cssText='position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:2147483647;width:max-content;max-width:calc(100vw - 32px);padding:12px 16px;border-radius:3px;background:#1E1A4D;color:#F6F5FB;font:500 14px/1.4 system-ui,sans-serif';d.body.appendChild(t);setTimeout(function(){t.remove();},6000);});}if(pois||navigator.webdriver){return;}var s=d.createElement('script');s.type='module';s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "57b5fbb3e4014a94b558278d7d604351"}');d.head.appendChild(s);})();</script>
 <style data-raikas-kieli>@media (max-width:560px){.flow-nav .oikea .kieli{display:inline-flex;margin:0}.flow-nav .oikea .kieli>[aria-current]{display:none}}</style>
 </head>
 <body>
@@ -515,7 +516,7 @@ footer .word img{filter:invert(1) brightness(.35)}
 <section class="osio tietosuoja">
   <div class="wrap">
     <h1 class="h2">Tietosuojaseloste</h1>
-    <p class="paivitetty">Päivitetty 18.10.2026</p>
+    <p class="paivitetty">Päivitetty 19.10.2026</p>
     <p>Tämä seloste koskee sivustoa aitilitoimisto.fi ja Raikas-tilitoimistopalvelua. Kerromme, miten Syntropia Oy käsittelee henkilötietoja, kun käytät sivustoa, otat meihin yhteyttä tai olet asiakkaamme. Noudatamme EU:n yleistä tietosuoja-asetusta (2016/679).</p>
 
     <h2>1. Rekisterinpitäjä</h2>
@@ -549,7 +550,7 @@ footer .word img{filter:invert(1) brightness(.35)}
     </ul>
 
     <h2>6. Siirrot EU:n ja ETA:n ulkopuolelle</h2>
-    <p>Sivuston palvelin on GitHub Pages, ja fontit ladataan Google Fontsista. Kun avaat sivun, selaimesi lähettää IP-osoitteesi ja selaintietonsa näille palveluille. Niiden palvelimet voivat olla EU:n ja ETA:n ulkopuolella. Siirroissa käytetään EU:n vakiosopimuslausekkeita tai EU:n ja Yhdysvaltain tietosuojakehystä.</p>
+    <p>Sivuston palvelin on GitHub Pages, fontit ladataan Google Fontsista ja kävijätilasto (kohta 9) on Cloudflarella. Kun avaat sivun, selaimesi lähettää IP-osoitteesi ja selaintietonsa näille palveluille. Niiden palvelimet voivat olla EU:n ja ETA:n ulkopuolella. Siirroissa käytetään EU:n vakiosopimuslausekkeita tai EU:n ja Yhdysvaltain tietosuojakehystä.</p>
 
     <h2>7. Kuinka kauan tiedot säilyvät</h2>
     <ul>
@@ -562,7 +563,7 @@ footer .word img{filter:invert(1) brightness(.35)}
     <p>Suojaamme tiedot muun muassa käyttöoikeuksilla, salatuilla yhteyksillä ja varmuuskopioilla. Henkilöstömme ja palveluntarjoajamme ovat salassapitovelvollisia.</p>
 
     <h2>9. Evästeet ja kävijätilasto</h2>
-    <p>Sivusto ei käytä evästeitä eikä kävijätilastoa. Jos tämä muuttuu, päivitämme selosteen ja pyydämme tarvittaessa suostumuksesi.</p>
+    <p>Sivusto ei käytä evästeitä. Kävijämääriä ja sivujen latautumisnopeutta seuraamme Cloudflare Web Analyticsilla. Se ei käytä evästeitä eikä tallenna laitteellesi mitään, eikä se tunnista kävijöitä IP-osoitteen tai selaintietojen perusteella. Selaimesi lähettää Cloudflarelle avatun sivun ja edellisen sivun osoitteen, selaimen, käyttöjärjestelmän ja laitetyypin sekä sivun latausajat. Maan Cloudflare päättelee yhteyden perusteella. Näemme tiedoista vain koosteita, kuten käyntimääriä sivuittain ja maittain. Jos käytäntö muuttuu, päivitämme selosteen ja pyydämme tarvittaessa suostumuksesi.</p>
 
     <h2>10. Sinun oikeutesi</h2>
     <ul>
