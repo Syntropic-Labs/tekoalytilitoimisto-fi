@@ -482,6 +482,7 @@ footer .word img{filter:invert(1) brightness(.35)}
 .otsikko{letter-spacing:-.035em!important}
 </style>
 <style data-raikas>.raikas-lukitus{display:inline-flex;align-items:center;gap:9px;font:700 22px/1 "Schibsted Grotesk",system-ui,sans-serif;letter-spacing:-.035em;color:#1E1A4D;white-space:nowrap}.raikas-lukitus .raikas-merkki{width:30px;height:30px;flex:none;display:block}.f-word .raikas-lukitus,.word .raikas-lukitus{font-size:26px}.word .raikas-lukitus .raikas-merkki{width:34px;height:34px}</style>
+<style data-raikas-22072>.tunnus{white-space:nowrap}.soita-fab{transition:opacity .2s ease,visibility .2s,transform .18s}.soita-fab.piilossa{opacity:0;visibility:hidden;pointer-events:none}@media (scripting:enabled){.soita-fab:not(.valmis){opacity:0;visibility:hidden;pointer-events:none;transition:none}}@media (prefers-reduced-motion:reduce){.soita-fab{transition:none}}</style>
 <script data-lukema>(function(){var k='raikas-oma',d=document,ilmoitus=null,pois=false;try{var u=new URL(location.href),v=u.searchParams.get('oma');if(v==='1'||v==='0'){ilmoitus='Selain ei salli tallennusta, joten laitetta ei voitu merkitä.';if(v==='1'){localStorage.setItem(k,'1');}else{localStorage.removeItem(k);}ilmoitus=v==='1'?'Tämä laite ei enää näy aitilitoimisto.fi:n kävijätilastoissa.':'Tämä laite näkyy taas aitilitoimisto.fi:n kävijätilastoissa.';u.searchParams.delete('oma');history.replaceState(history.state,'',u.pathname+u.search+u.hash);}pois=localStorage.getItem(k)==='1';}catch(e){}if(ilmoitus){d.addEventListener('DOMContentLoaded',function(){var t=d.createElement('div');t.setAttribute('role','status');t.textContent=ilmoitus;t.style.cssText='position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:2147483647;width:max-content;max-width:calc(100vw - 32px);padding:12px 16px;border-radius:3px;background:#1E1A4D;color:#F6F5FB;font:500 14px/1.4 system-ui,sans-serif';d.body.appendChild(t);setTimeout(function(){t.remove();},6000);});}if(pois||navigator.webdriver){return;}var s=d.createElement('script');s.type='module';s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "57b5fbb3e4014a94b558278d7d604351"}');d.head.appendChild(s);})();</script>
 <style data-raikas-kieli>@media (max-width:560px){.flow-nav .oikea .kieli{display:inline-flex;margin:0}.flow-nav .oikea .kieli>[aria-current]{display:none}}</style>
 </head>
@@ -519,13 +520,13 @@ footer .word img{filter:invert(1) brightness(.35)}
       <a class="btn btn-blue" href="https://syntropia.fi/tilaa.html">Avaa tilauslomake <span class="arr">→</span></a>
       <span class="soita">Tai soita <a class="textlink" href="tel:+358413274326">041 327 4326</a> arkisin&nbsp;klo&nbsp;9–18</span>
     </div>
-    <p class="tt-tunniste">Y-tunnus 3645903-2 · Rahanpesun valvontarekisteri LVV-U/128176/2026</p>
+    <p class="tt-tunniste">Y-tunnus 3645903-2 · Rahanpesun valvontarekisteri <span class="tunnus">LVV-U/128176/2026</span></p>
   </div>
     <figure class="hero-ikkuna"><div class="hi-kp"><span class="hi-kp-kuva" aria-hidden="true">SP</span><span><small>Kirjanpitäjäsi</small><b>Santeri Pennanen</b><a href="tel:+358413274326">041 327 4326</a></span></div><div class="hi-paperi" aria-hidden="true"><b>Tilinpäätös 1.1.–31.12.2025</b><span>Esimerkki Oy · Tuloslaskelma ja tase</span><i><em>Liikevaihto</em><em>38 412,00</em></i><i><em>Materiaalit ja palvelut</em><em>−9 870,40</em></i><i><em>Tilikauden voitto</em><em>11 206,75</em></i></div><div class="hi-kuitti" aria-hidden="true"><b>KUITTI</b><span>Rautakauppa</span><span>Työkalut</span><b>48,90 €</b></div><div class="hi-palkki" aria-hidden="true"><i></i><i></i><i></i><span>aineisto.syntropia.fi</span></div><div class="hi-kuva"><img src="assets/tilitoimisto/flow-hero-oma-d.jpg" width="1400" height="1050" alt="Aineistoportaalin Oma näkymä: esimerkkiyrityksen kassa, kuukauden myynti ja kulut, maksettava ALV sekä painikkeet aineiston lähettämiseen ja laskun tekemiseen." fetchpriority="high" decoding="async"><span class="hi-vapaa" aria-hidden="true">Vapaaehtoinen</span></div><figcaption>Tältä portaali näyttää, kun kirjaudut sisään. Kuvassa näkyvät esimerkkiyrityksen luvut. Voit halutessasi liittää portaaliin oman tekoälyagenttisi.</figcaption></figure></div>
   </div>
   </div>
 </section>
-<div class="luottamus"><div class="wrap"><span class="t"><b>Tilinpäätös ja veroilmoitus</b> kuuluvat hintaan</span><span class="t"><b>Tilitoimiston vaihto</b> ilman lisämaksua</span><span class="t"><b>Ei irtisanomisaikaa</b> · ehdot TAL2023</span><span class="t">Rahanpesun valvontarekisteri <b>LVV-U/128176/2026</b></span></div></div>
+<div class="luottamus"><div class="wrap"><span class="t"><b>Tilinpäätös ja veroilmoitus</b> kuuluvat hintaan</span><span class="t"><b>Tilitoimiston vaihto</b> ilman lisämaksua</span><span class="t"><b>Ei irtisanomisaikaa</b> · ehdot TAL2023</span><span class="t">Rahanpesun valvontarekisteri <b><span class="tunnus">LVV-U/128176/2026</span></b></span></div></div>
 <div class="faktarivi"><div class="wrap">
   <span><b>Syntropia Oy</b> · Y-tunnus 3645903-2 · Helsinki</span>
   <span>Syntropia Oy vastaa kirjanpidon hoitamisesta ja laadusta</span>
@@ -684,7 +685,7 @@ footer .word img{filter:invert(1) brightness(.35)}
       <details><summary>Mikä on AI-tilitoimisto?</summary><p>Tilitoimisto, jossa tekoäly tekee toistuvan työn: lukee kuitit ja laskut, ehdottaa kirjaukset ja vertaa tiliotetta kirjanpitoon. Kirjanpitäjä tarkistaa työn, tekee ilmoitukset ja tilinpäätöksen ja vastaa niistä.</p></details>
       <details><summary>Voinko vaihtaa nykyisestä tilitoimistosta?</summary><p>Voit. Haemme aineiston edelliseltä tilitoimistolta ja huolehdimme, että kirjanpito jatkuu ilman katkoa. Vaihto ei maksa mitään.</p></details>
       <details><summary>Tarvitsenko kirjanpito-ohjelman?</summary><p>Et. Lähetät kuitit portaaliin, ja me teemme loput. <a class="textlink" href="https://syntropia.fi/aineistoportaali.html">Katso portaali</a></p></details>
-      <details><summary>Kuka vastaa, jos tekoäly erehtyy?</summary><p>Syntropia Oy vastaa kirjanpidon laadusta. Kirjanpitäjä tarkistaa tekoälyn työn ennen ilmoituksia ja tilinpäätöstä. Myöhemmin löytyvä virhe korjataan, ja jokainen korjaus jää kirjanpitoon näkyviin. Sinä vastaat siitä, että lähettämäsi kuitit ja laskut ovat oikeat.</p><p>Olemme Lupa- ja valvontaviraston rahanpesun valvontarekisterissä (LVV-U/128176/2026).</p></details>
+      <details><summary>Kuka vastaa, jos tekoäly erehtyy?</summary><p>Syntropia Oy vastaa kirjanpidon laadusta. Kirjanpitäjä tarkistaa tekoälyn työn ennen ilmoituksia ja tilinpäätöstä. Myöhemmin löytyvä virhe korjataan, ja jokainen korjaus jää kirjanpitoon näkyviin. Sinä vastaat siitä, että lähettämäsi kuitit ja laskut ovat oikeat.</p><p>Olemme Lupa- ja valvontaviraston rahanpesun valvontarekisterissä (<span class="tunnus">LVV-U/128176/2026</span>).</p></details>
       <details><summary>Mitä hintaan ei sisälly?</summary><p>Ulkomaankauppa maksaa 50&nbsp;€/kk&nbsp;+&nbsp;alv. Palkanlaskennasta teemme tarjouksen. Muut erityiset selvitykset tehdään vain, kun niistä on sovittu etukäteen.</p></details>
       <details><summary>Mitä pilottiasiakkuus tarkoittaa?</summary><p>Kirjanpitosi tehdään pilotin ajan meillä nykyisen kirjanpidon rinnalla. Sen jälkeen saat saman palvelun pysyvästi 60 % halvemmalla kuin nyt maksat. <a class="textlink" href="https://syntropia.fi/pilotti.html">Kysy pilottipaikkaa</a></p></details>
       <details><summary>Kuinka pitkä sopimus on?</summary><p>Sopimus on voimassa toistaiseksi, eikä irtisanomisaikaa ole. Kun lopetat, annamme aineiston sinulle tai uudelle tilitoimistollesi. Muuten noudatamme taloushallintoalan yleisiä sopimusehtoja TAL2023.</p></details>
@@ -721,7 +722,7 @@ footer .word img{filter:invert(1) brightness(.35)}
       <div><h4>Ehdot</h4><ul><li><a href="tietosuoja.html">Tietosuojaseloste</a></li></ul></div>
     </div>
     <div class="base">
-      <p>© 2026 Syntropia Oy · Välimerenkatu 5 D 204, 00180 Helsinki · Y-tunnus 3645903-2 · Rahanpesun valvontarekisteri LVV-U/128176/2026</p>
+      <p>© 2026 Syntropia Oy · Välimerenkatu 5 D 204, 00180 Helsinki · Y-tunnus 3645903-2 · Rahanpesun valvontarekisteri <span class="tunnus">LVV-U/128176/2026</span></p>
     </div>
   </div>
 </footer>
@@ -793,5 +794,6 @@ footer .word img{filter:invert(1) brightness(.35)}
 </style>
 <script src="assets/syntropia.js"></script>
 <script>(function(){if(!('IntersectionObserver'in window))return;var r=matchMedia('(prefers-reduced-motion: reduce)').matches;if(r)return;var els=document.querySelectorAll('.vaihe .vk,.paketti,.kp-kortti,.tyonjako>div');var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('nakyy');o.unobserve(e.target)}})},{threshold:.08});els.forEach(function(el){el.classList.add('js-fade');o.observe(el)})})();</script>
+<script data-raikas-22072>(function(){var f=document.querySelector('.soita-fab');if(!f)return;var k=document.querySelectorAll('.page-hero,footer,[data-piilota-soita]');if(!('IntersectionObserver'in window)||!k.length){f.classList.add('valmis');return}var n=new Set(),o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting)n.add(e.target);else n.delete(e.target)});f.classList.toggle('piilossa',n.size>0);f.classList.add('valmis')});k.forEach(function(x){o.observe(x)})})();</script>
 </body>
 </html>
