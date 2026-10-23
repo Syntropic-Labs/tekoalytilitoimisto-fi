@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://tekoalytilitoimisto.fi/</loc><lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://tekoalytilitoimisto.fi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tekoalytilitoimisto.fi/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tekoalytilitoimisto.fi/"/></url>
+  <url><loc>https://tekoalytilitoimisto.fi/en/</loc><lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://tekoalytilitoimisto.fi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tekoalytilitoimisto.fi/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tekoalytilitoimisto.fi/"/></url>
+  <url><loc>https://tekoalytilitoimisto.fi/tietosuoja.html</loc><lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://tekoalytilitoimisto.fi/tietosuoja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tekoalytilitoimisto.fi/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tekoalytilitoimisto.fi/tietosuoja.html"/></url>
+  <url><loc>https://tekoalytilitoimisto.fi/en/privacy.html</loc><lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://tekoalytilitoimisto.fi/tietosuoja.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://tekoalytilitoimisto.fi/en/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://tekoalytilitoimisto.fi/tietosuoja.html"/></url>
+</urlset>

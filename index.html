@@ -207,7 +207,6 @@
 @media (max-width:900px){.paketit.kolme{grid-template-columns:minmax(0,1fr)}}
 @media (max-width:900px){.vaiheet{grid-template-columns:1fr;gap:44px}.vk{aspect-ratio:auto;max-width:440px}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "AccountingService", "@id": "https://tekoalytilitoimisto.fi/#palvelu", "name": "Raikas", "url": "https://tekoalytilitoimisto.fi/", "description": "AI-tilitoimisto Raikas: AI-agentit kirjaavat, ja kirjanpitäjä vastaa, kun soitat. Kirjanpito, ilmoitukset ja tilinpäätös alkaen 49 €/kk + alv.", "telephone": "+358413274326", "email": "hei@tekoalytilitoimisto.fi", "areaServed": {"@type": "Country", "name": "Suomi"}, "address": {"@type": "PostalAddress", "streetAddress": "Välimerenkatu 5 D 204", "postalCode": "00180", "addressLocality": "Helsinki", "addressCountry": "FI"}, "parentOrganization": {"@type": "Organization", "name": "Syntropia Oy", "url": "https://syntropia.fi/", "vatID": "FI36459032", "taxID": "3645903-2"}, "priceRange": "49–79 €/kk + alv"}</script>
 <style>
 /* Flow-hero B (15.10.2026): tummansininen hero ja LinkedIn-kansikuvan kuvitus. Rajattu .fh-tumma-heroon. */
 .page-hero.fh-tumma{background:#1E1A4D;color:#fff}
@@ -485,6 +484,195 @@ footer .word img{filter:invert(1) brightness(.35)}
 <style data-raikas-22072>.tunnus{white-space:nowrap}.soita-fab{transition:opacity .2s ease,visibility .2s,transform .18s}.soita-fab.piilossa{opacity:0;visibility:hidden;pointer-events:none}@media (scripting:enabled){.soita-fab:not(.valmis){opacity:0;visibility:hidden;pointer-events:none;transition:none}}@media (prefers-reduced-motion:reduce){.soita-fab{transition:none}}</style>
 <script data-lukema>(function(){var k='raikas-oma',d=document,ilmoitus=null,pois=false;try{var u=new URL(location.href),v=u.searchParams.get('oma');if(v==='1'||v==='0'){ilmoitus='Selain ei salli tallennusta, joten laitetta ei voitu merkitä.';if(v==='1'){localStorage.setItem(k,'1');}else{localStorage.removeItem(k);}ilmoitus=v==='1'?'Tämä laite ei enää näy tekoalytilitoimisto.fi:n kävijätilastoissa.':'Tämä laite näkyy taas tekoalytilitoimisto.fi:n kävijätilastoissa.';u.searchParams.delete('oma');history.replaceState(history.state,'',u.pathname+u.search+u.hash);}pois=localStorage.getItem(k)==='1';}catch(e){}if(ilmoitus){d.addEventListener('DOMContentLoaded',function(){var t=d.createElement('div');t.setAttribute('role','status');t.textContent=ilmoitus;t.style.cssText='position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:2147483647;width:max-content;max-width:calc(100vw - 32px);padding:12px 16px;border-radius:3px;background:#1E1A4D;color:#F6F5FB;font:500 14px/1.4 system-ui,sans-serif';d.body.appendChild(t);setTimeout(function(){t.remove();},6000);});}if(pois||navigator.webdriver){return;}var s=d.createElement('script');s.type='module';s.src='https://static.cloudflareinsights.com/beacon.min.js';s.setAttribute('data-cf-beacon','{"token": "333993c362344e528132b189b952f12e"}');d.head.appendChild(s);})();</script>
 <style data-raikas-kieli>@media (max-width:560px){.flow-nav .oikea .kieli{display:inline-flex;margin:0}.flow-nav .oikea .kieli>[aria-current]{display:none}}</style>
+
+<script type="application/ld+json" data-seo="yritys">{
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "Organization",
+   "@id": "https://syntropia.fi/#organization",
+   "name": "Syntropia",
+   "legalName": "Syntropia Oy",
+   "url": "https://syntropia.fi/",
+   "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Y-tunnus",
+    "value": "3645903-2"
+   },
+   "vatID": "FI36459032",
+   "sameAs": [
+    "https://syntropia.fi/",
+    "https://www.youtube.com/@Syntropia-Oy"
+   ],
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Välimerenkatu 5 D 204",
+    "postalCode": "00180",
+    "addressLocality": "Helsinki",
+    "addressCountry": "FI"
+   },
+   "telephone": "+358413274326",
+   "email": "santeri@syntropia.fi"
+  },
+  {
+   "@type": [
+    "AccountingService",
+    "ProfessionalService"
+   ],
+   "@id": "https://tekoalytilitoimisto.fi/#palvelu",
+   "name": "Raikas",
+   "url": "https://tekoalytilitoimisto.fi/",
+   "inLanguage": "fi",
+   "description": "AI-tilitoimisto Raikas: AI-agentit kirjaavat, ja kirjanpitäjä vastaa, kun soitat. Kirjanpito, ilmoitukset ja tilinpäätös alkaen 49 €/kk + alv.",
+   "telephone": "+358413274326",
+   "email": "hei@tekoalytilitoimisto.fi",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Välimerenkatu 5 D 204",
+    "postalCode": "00180",
+    "addressLocality": "Helsinki",
+    "addressCountry": "FI"
+   },
+   "areaServed": {
+    "@type": "Country",
+    "name": "Suomi"
+   },
+   "parentOrganization": {
+    "@id": "https://syntropia.fi/#organization"
+   },
+   "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "Y-tunnus",
+    "value": "3645903-2"
+   },
+   "openingHours": "Mo-Fr 09:00-18:00",
+   "makesOffer": [
+    {
+     "@type": "Offer",
+     "name": "Pienyritys",
+     "description": "Liikevaihto alle 80 000 €. Kirjanpito, ALV- ja veroilmoitukset sekä tilinpäätös.",
+     "url": "https://tekoalytilitoimisto.fi/",
+     "priceCurrency": "EUR",
+     "availability": "https://schema.org/InStock",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 49,
+      "priceCurrency": "EUR",
+      "unitCode": "MON",
+      "valueAddedTaxIncluded": false,
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "MON"
+      }
+     }
+    },
+    {
+     "@type": "Offer",
+     "name": "Kasvava yritys",
+     "description": "Liikevaihto enintään 200 000 €, enintään 5 työntekijää.",
+     "url": "https://tekoalytilitoimisto.fi/",
+     "priceCurrency": "EUR",
+     "availability": "https://schema.org/InStock",
+     "priceSpecification": {
+      "@type": "UnitPriceSpecification",
+      "price": 79,
+      "priceCurrency": "EUR",
+      "unitCode": "MON",
+      "valueAddedTaxIncluded": false,
+      "referenceQuantity": {
+       "@type": "QuantitativeValue",
+       "value": 1,
+       "unitCode": "MON"
+      }
+     }
+    }
+   ],
+   "priceRange": "49–79 €/kk + alv"
+  },
+  {
+   "@type": "WebSite",
+   "@id": "https://tekoalytilitoimisto.fi/#website",
+   "url": "https://tekoalytilitoimisto.fi/",
+   "name": "Raikas",
+   "inLanguage": "fi",
+   "publisher": {
+    "@id": "https://syntropia.fi/#organization"
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://tekoalytilitoimisto.fi/#kysymykset",
+   "inLanguage": "fi",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Mikä on AI-tilitoimisto?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Tilitoimisto, jossa tekoäly tekee toistuvan työn: lukee kuitit ja laskut, kirjaa ne ja vertaa tiliotetta kirjanpitoon. Kirjanpitäjä päättää säännöt, joiden mukaan tekoäly työskentelee, ja pitää ne ajan tasalla. Koska rutiinit hoituvat, hänelle jää aikaa kysymyksillesi."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Voinko vaihtaa nykyisestä tilitoimistosta?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Voit. Haemme aineiston edelliseltä tilitoimistolta ja huolehdimme, että kirjanpito jatkuu ilman katkoa. Vaihto ei maksa mitään."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Tarvitsenko kirjanpito-ohjelman?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Et. Lähetät kuitit portaaliin, ja me teemme loput. Katso portaali"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kuka vastaa, jos tekoäly erehtyy?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Syntropia Oy vastaa kirjanpidon laadusta, myös tekoälyn tekemästä työstä. Samanlaiset tapahtumat kirjataan aina samoilla säännöillä, ja ohjelmisto tarkistaa ilmoitukset ennen kuin ne lähtevät verottajalle. Kirjanpitäjä pitää säännöt ajan tasalla ja ratkaisee tilanteet, joihin säännöissä ei ole valmista vastausta. Jos virhe löytyy myöhemmin, korjaamme sen, ja korjaus jää kirjanpitoon näkyviin. Sinä vastaat siitä, että lähettämäsi kuitit ja laskut ovat oikeat.Olemme Lupa- ja valvontaviraston rahanpesun valvontarekisterissä (LVV-U/128176/2026)."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Mitä hintaan ei sisälly?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ulkomaankauppa maksaa 50 €/kk + alv. Palkanlaskennasta teemme tarjouksen. Muut erityiset selvitykset tehdään vain, kun niistä on sovittu etukäteen."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Mitä pilottiasiakkuus tarkoittaa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Kirjanpitosi tehdään pilotin ajan meillä nykyisen kirjanpidon rinnalla. Sen jälkeen saat saman palvelun pysyvästi 60 % halvemmalla kuin nyt maksat. Kysy pilottipaikkaa"
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Kuinka pitkä sopimus on?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sopimus on voimassa toistaiseksi, eikä irtisanomisaikaa ole. Kun lopetat, annamme aineiston sinulle tai uudelle tilitoimistollesi. Muuten noudatamme taloushallintoalan yleisiä sopimusehtoja TAL2023."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Saako tekoälystä apua omaan liiketoimintaan?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Saa. Syntropia tarjoaa myös tekoälykonsultointia kirjanpidon rinnalla. Lue konsultoinnista"
+     }
+    }
+   ]
+  }
+ ]
+}</script>
 </head>
 <body>
 <a class="soita-fab" href="tel:+358413274326" aria-label="Soita 041 327 4326"><span aria-hidden="true">☎</span> Soita</a>
